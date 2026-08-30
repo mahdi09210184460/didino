@@ -4,7 +4,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 class ServiceCategory {
   final String id;
   final String title;
-  final FaIconData icon;
+  final IconData icon;
   final Color color;
 
   ServiceCategory({
