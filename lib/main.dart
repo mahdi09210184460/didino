@@ -8,6 +8,7 @@ import 'providers/auth_provider.dart';
 import 'providers/service_provider.dart';
 import 'providers/admin_provider.dart';
 import 'providers/referral_provider.dart';
+import 'providers/wallet_provider.dart';
 import 'screens/home_screen.dart';
 import 'screens/auth/auth_screen.dart';
 
