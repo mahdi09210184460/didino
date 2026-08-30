@@ -88,7 +88,7 @@ class ServiceProvider with ChangeNotifier {
     fetchData();
   }
 
-  IconData _getIconData(String? name) {
+  FaIconData _getIconData(String? name) {
     switch(name) {
       case 'instagram': return FontAwesomeIcons.instagram;
       case 'telegram': return FontAwesomeIcons.telegram;
