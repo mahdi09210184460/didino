@@ -109,7 +109,7 @@ class LotteryScreen extends StatelessWidget {
               title: const Text('پرداخت از کیف پول', style: TextStyle(color: Colors.white)),
               subtitle: Text('موجودی: ${wallet.balance.toInt()} تومان', style: const TextStyle(color: Colors.white54)),
               onTap: () async {
-                bool success = await wallet.deductBalance(cost);
+                bool success = await wallet.deductBalance(cost, 'شرکت در قرعه‌کشی');
                 if (success) {
                   Navigator.pop(context);
                   ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('ثبت‌نام با موفقیت انجام شد ✅')));
